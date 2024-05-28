@@ -9,7 +9,7 @@ function conversão(){
     switch (operador){
 
         case "Fahrenheit":
-            text = `<p> ${celsius} * ${9/5} + ${32} = ${(celsius*(9/5)) + 32} F </p>`;
+            text = `<p> ${celsius} * ${9/5} + ${32} = ${(celsius*(9/5)) + 32} °F </p>`;
             break;
         case "Kelvin":
             text = `<p> ${celsius} + ${273.15} = ${celsius+273.15} K </p>`;
