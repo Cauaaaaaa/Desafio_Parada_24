@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <Title>Convertor de Temperatura</Title>
+        <meta charset="utf_8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css        ">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
+    </head>
+
+    <body>
+        <div id="main">
+            <h1>Conversor de Temperaturas</h1>
+        
+            <div id="celsius">
+                <input type="number" id="iCelsius" placeholder="Celsius">
+                <span id="celsius">Cº</span>
+            </div>
+
+            <div id="opção">
+                <select id="select">
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Kelvin">Kelvin</option>
+                </select>
+                
+            </div>
+
+            <div id="icon">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div id="resposta"> </div>
+
+            <div id="confirmar">
+                <input type="submit" onclick="conversão()" id="calculo" value="Calcular">
+            </div>
+            
+        </div>
+    </body>
+</html>
